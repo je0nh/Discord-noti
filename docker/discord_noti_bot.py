@@ -6,8 +6,8 @@ import re
 
 nest_asyncio.apply()
 
-CHANNEL_ID = '1194122219543089166'
-TOKEN = 'MTE5NDEyOTI3MzE2NzAyNDI2OQ.GNWQ3b.e0dfHmPFrBr0rKnlRfd14mlmAaOcWPZFcAtam0'
+CHANNEL_ID = 'CHANNEL_ID'
+TOKEN = 'TOKEN'
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
